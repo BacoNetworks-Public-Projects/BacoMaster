@@ -15,6 +15,7 @@ public class ThermalKit implements CommandExecutor {
             Player player = (Player) src;
             Sponge.getCommandManager().process(player, "kit thermaldystarter");
             Sponge.getCommandManager().process(Sponge.getServer().getConsole(), "lp user " + player.getName() + " promote player");
+            Sponge.getCommandManager().process(Sponge.getServer().getConsole(), "econ add " + player.getName() + " 1000");
             Sponge.getCommandManager().process(Sponge.getServer().getConsole(), "warp " + player.getName() + " started");
 
         }
