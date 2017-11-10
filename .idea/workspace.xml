@@ -2,17 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66616a32-1fa0-4581-9f71-d2c1e3503684" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/BacoMaster.iml" afterPath="$PROJECT_DIR$/.idea/modules/BacoMaster.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/BacoMaster_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/BacoMaster_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/BacoMaster_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/BacoMaster_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/HDR/BacoMaster.class" afterPath="$PROJECT_DIR$/build/classes/main/HDR/BacoMaster.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/HDR/commands/EnchanterKit.class" afterPath="$PROJECT_DIR$/build/classes/main/HDR/commands/EnchanterKit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/HDR/commands/EnviroKit.class" afterPath="$PROJECT_DIR$/build/classes/main/HDR/commands/EnviroKit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/HDR/commands/FarmerKit.class" afterPath="$PROJECT_DIR$/build/classes/main/HDR/commands/FarmerKit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/HDR/commands/RefinedKit.class" afterPath="$PROJECT_DIR$/build/classes/main/HDR/commands/RefinedKit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/HDR/commands/StarterCommand.class" afterPath="$PROJECT_DIR$/build/classes/main/HDR/commands/StarterCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/HDR/commands/ThermalKit.class" afterPath="$PROJECT_DIR$/build/classes/main/HDR/commands/ThermalKit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/HDR/commands/XnetKit.class" afterPath="$PROJECT_DIR$/build/classes/main/HDR/commands/XnetKit.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/HDR/commands/EnchanterKit.java" afterPath="$PROJECT_DIR$/src/main/java/HDR/commands/EnchanterKit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/HDR/commands/EnviroKit.java" afterPath="$PROJECT_DIR$/src/main/java/HDR/commands/EnviroKit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/HDR/commands/FarmerKit.java" afterPath="$PROJECT_DIR$/src/main/java/HDR/commands/FarmerKit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/HDR/commands/RefinedKit.java" afterPath="$PROJECT_DIR$/src/main/java/HDR/commands/RefinedKit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/HDR/commands/ThermalKit.java" afterPath="$PROJECT_DIR$/src/main/java/HDR/commands/ThermalKit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/HDR/commands/XnetKit.java" afterPath="$PROJECT_DIR$/src/main/java/HDR/commands/XnetKit.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/mcmod.info" afterPath="$PROJECT_DIR$/build/resources/main/mcmod.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/generateMetadata/mcmod.info" afterPath="$PROJECT_DIR$/build/tmp/generateMetadata/mcmod.info" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -85,6 +89,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Martin &lt;refshet@yahoo.no&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -935,6 +944,14 @@
       <option name="presentableId" value="Default" />
       <updated>1510262429415</updated>
     </task>
+    <task id="LOCAL-00001" summary="1.0.3 Added Kristi Shit.">
+      <created>1510329970882</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1510329970882</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1005,6 +1022,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.0.3 Added Kristi Shit." />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0.3 Added Kristi Shit." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
