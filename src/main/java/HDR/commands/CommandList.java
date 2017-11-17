@@ -1,5 +1,7 @@
 package HDR.commands;
 
+import org.spongepowered.api.command.args.CommandArgs;
+import org.spongepowered.api.command.args.GenericArguments;
 import org.spongepowered.api.command.spec.CommandSpec;
 import org.spongepowered.api.text.Text;
 
@@ -11,4 +13,6 @@ public class CommandList {
     private static CommandSpec FarmerCMD = CommandSpec.builder().description(Text.of("Redeem Farmer Kit")).permission("master.starterkits").executor(new FarmerKit()).build();
     private static CommandSpec EnchanterCMD = CommandSpec.builder().description(Text.of("Redeem Enchanter Kit")).permission("master.starterkits").executor(new EnchanterKit()).build();
     public static CommandSpec StarterCMD = CommandSpec.builder().description(Text.of("")).executor(new StarterCommand()).child(RefinedCMD, "refinedkit").child(EnviroCMD, "envirokit").child(ThermalCMD, "thermalkit").child(XnetCMD,"xnetkit").child(FarmerCMD,"farmerkit").child(EnchanterCMD,"enchanterkit").permission("master.starterkits").build();
+    public static CommandSpec ClearEntitiesCMD = CommandSpec.builder().description(Text.of("")).permission("master.command.entities").executor(new ClearEntitiesCommand()).build();
+    public static CommandSpec BacoMasterCMD = CommandSpec.builder().description(Text.of("")).permission("master.command").executor(new BacoMasterCommand()).child(ClearEntitiesCMD, "clear").build();
 }

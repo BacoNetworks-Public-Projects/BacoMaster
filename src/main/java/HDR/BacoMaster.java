@@ -12,6 +12,7 @@ public class BacoMaster {
 
     private void makeCommands() {
         Sponge.getCommandManager().register(this, StarterCMD, "start");
+        Sponge.getCommandManager().register(this, BacoMasterCMD, "bacomaster", "bm");
     }
 
     @Listener
