@@ -8,12 +8,12 @@ import org.spongepowered.api.command.args.CommandContext;
 import org.spongepowered.api.command.spec.CommandExecutor;
 import org.spongepowered.api.entity.living.player.Player;
 
-public class ThermalKit implements CommandExecutor {
+public class TinkersKit implements CommandExecutor {
     @Override
     public CommandResult execute(CommandSource src, CommandContext args) throws CommandException {
         if (src instanceof Player) {
             Player player = (Player) src;
-            Sponge.getCommandManager().process(player, "kit thermaldystarter");
+            Sponge.getCommandManager().process(player, "kit tinkers");
             Sponge.getCommandManager().process(Sponge.getServer().getConsole(), "lp user " + player.getName() + " promote player");
             Sponge.getCommandManager().process(Sponge.getServer().getConsole(), "econ add " + player.getName() + " 1000");
             Sponge.getCommandManager().process(Sponge.getServer().getConsole(), "warp " + player.getName() + " started");

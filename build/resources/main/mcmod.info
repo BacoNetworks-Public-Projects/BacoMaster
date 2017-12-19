@@ -1,0 +1,17 @@
+[
+    {
+        "modid": "bacomaster",
+        "name": "BacoMaster",
+        "version": "1.1",
+        "description": "BacoNetworks Masterplugin",
+        "authorList": [
+            "HDR"
+        ],
+        "dependencies": [
+            "spongeapi@7.0.0-SNAPSHOT"
+        ],
+        "requiredMods": [
+            "spongeapi@7.0.0-SNAPSHOT"
+        ]
+    }
+]
