@@ -7,7 +7,7 @@ import org.spongepowered.api.plugin.Plugin;
 
 import static HDR.commands.CommandList.*;
 
-@Plugin(id = "bacomaster", name = "BacoMaster", version = "1.1")
+@Plugin(id = "bacomaster", name = "BacoMaster", version = "1.2")
 public class BacoMaster {
 
     private void makeCommands() {
