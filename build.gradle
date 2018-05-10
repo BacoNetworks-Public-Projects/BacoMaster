@@ -1,26 +1,21 @@
-plugins {
-    id 'org.spongepowered.plugin' version '0.8.1'
-    id 'maven'
-}
+group 'com.hdr'
 
-sourceCompatibility = '1.8'
-targetCompatibility = '1.8'
+apply plugin: 'java'
 
-group = 'hdr.me'
-version = '1.1'
+sourceCompatibility = 1.6
 
-sponge {
-    plugin {
-        id = 'bacomaster'
-        meta {
-            name = "BacoMaster"
-            version = rootProject.version
-            authors = ["HDR"]
-            description = "BacoNetworks Masterplugin"
-        }
+repositories {
+    flatDir {
+        dirs ' libs'
     }
 }
 
 dependencies {
-    compile 'org.spongepowered:spongeapi:7.0.0-20170916.165320-38'
+    compile files('libs/craftbukkit-1.5.2-R1.0.jar')
+    compile files('libs/Essentials.jar')
+    compile files('libs/LWC.jar')
+    compile files('libs/PermissionsEx.jar')
+    compile files('libs/Towny.jar')
+    compile files('libs/Vault.jar')
+    compile files('libs/CoFHCore-1.5.2.5.jar')
 }

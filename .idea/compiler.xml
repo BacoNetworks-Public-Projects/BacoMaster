@@ -2,10 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="BacoMaster_main" target="1.8" />
-      <module name="BacoMaster_test" target="1.8" />
-      <module name="hdr.me_main" target="1.8" />
-      <module name="hdr.me_test" target="1.8" />
+      <module name="BacoMaster-1.5.2_main" target="1.6" />
+      <module name="BacoMaster-1.5.2_test" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

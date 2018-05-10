@@ -1,0 +1,23 @@
+name: BacoMaster-1.5.2
+main: com.hdr.master.Master
+version: 1.1.0
+softdepend: [Towny, PermissionsEx]
+commands:
+  bm:
+    description: Masterplugin Version
+    permission:
+  bm gettown:
+   description: Get a players town spawn.
+   permission: bm.gettown
+  bm fixskin:
+   description: Fix your skin.
+   permission: bm.fixskin
+  bm staffcape:
+   description: Add the staff cape.
+   permission: bm.staffcape
+  bm ctp:
+   description: Teleport to chunk coordinates.
+   permission: bm.ctp
+  bm listworlds:
+   description: List loaded worlds.
+   permission: bm.listworlds
