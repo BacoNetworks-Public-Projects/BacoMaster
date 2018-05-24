@@ -17,7 +17,7 @@ public class StarterCommand implements CommandExecutor {
     public CommandResult execute(CommandSource src, CommandContext args) throws CommandException {
         PaginationList.builder()
                 .title(Text.of(TextStyles.BOLD, TextColors.GREEN, "BacoNetworks Kit Selector"))
-                .contents(EnviroKitString, RefinedKitString, ThermalKitString, XnetKitString, FarmerKitString, EnchanterKitString)
+                .contents(TinkersKitString, SurvivorKitString, AeKitString, ThermalKitString)
                 .padding(Text.of("="))
                 .sendTo(src);
 

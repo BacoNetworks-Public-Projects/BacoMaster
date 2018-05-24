@@ -13,7 +13,7 @@ public class TinkersKit implements CommandExecutor {
     public CommandResult execute(CommandSource src, CommandContext args) throws CommandException {
         if (src instanceof Player) {
             Player player = (Player) src;
-            Sponge.getCommandManager().process(player, "kit tinkerskit");
+            Sponge.getCommandManager().process(player, "kit tinkerstarter");
             Sponge.getCommandManager().process(Sponge.getServer().getConsole(), "lp user " + player.getName() + " promote player");
             Sponge.getCommandManager().process(Sponge.getServer().getConsole(), "econ add " + player.getName() + " 1000");
             Sponge.getCommandManager().process(Sponge.getServer().getConsole(), "warp " + player.getName() + " started");

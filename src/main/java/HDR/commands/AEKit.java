@@ -13,7 +13,7 @@ public class AEKit implements CommandExecutor {
     public CommandResult execute(CommandSource src, CommandContext args) throws CommandException {
         if (src instanceof Player) {
             Player player = (Player) src;
-            Sponge.getCommandManager().process(player, "kit aekit");
+            Sponge.getCommandManager().process(player, "kit ae2starter");
             Sponge.getCommandManager().process(Sponge.getServer().getConsole(), "lp user " + player.getName() + " promote player");
             Sponge.getCommandManager().process(Sponge.getServer().getConsole(), "econ add " + player.getName() + " 1000");
             Sponge.getCommandManager().process(Sponge.getServer().getConsole(), "warp " + player.getName() + " started");
